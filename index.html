@@ -9,7 +9,7 @@
     
     <body>
         <a-scene embedded arjs='sourceType: webcam;'>
-            
+          <a-marker-camera preset='hiro'>  
       <a-text text="value: Whatever \n you want !" color="blue"    rotation="-90 0 0"></a-text>
       
             
@@ -24,7 +24,7 @@
 
             <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
             <!--<a-video src="video/Video.mp4" width="16" height="9" position="0 1 -1"></a-video>-->
-                <a-marker-camera preset="hiro"></a-marker-camera>
+                </a-marker-camera>
         </a-scene>
     </body>
 </html>
